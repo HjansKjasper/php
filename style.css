@@ -1,0 +1,70 @@
+.profiler {
+    margin-left: 1175px;
+    margin-top: 20px;
+}
+.logo {
+    margin-left: 1050px;
+}
+body {
+    background-color: rgb(255, 154, 95);
+}
+
+.login {
+    margin-left: 950px;
+    margin-top: 50px
+}
+.tittel {
+    margin-left: 1200px;
+    margin-top: 30px;
+}
+
+.profil {
+    margin-left: 1000px;
+}
+
+.upload {
+    margin-left: 1000px;
+}
+
+.innlegg {
+    margin-left: 1000px;
+}
+
+.innlegg_div { 
+    margin-left: 1000px;
+}
+
+.forside {
+    margin-left: 1000px;
+}
+@keyframes size {
+    from {
+        transform: scale(0%);
+    }
+
+    to {
+        transform: scale(300%);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo {
+    animation: size 1s infinite alternate;
+}
+
+.logo2 {
+    animation: rotation 4s infinite linear;
+}
+
+.logo3 {
+    animation: rotation 5s infinite linear;
+}
